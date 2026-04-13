@@ -163,12 +163,27 @@ footer {
         gap: 10px;
         align-items: center;
     }
-
     header {
         padding: 20px 10px;
     }
-
     h1 {
         font-size: 1.8rem; 
     }
+    main {
+        padding: 10px; /* Reduce side gaps to save on space */
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    article {
+        padding: 15px;
+    }
+
+    /* Ensuring project cards take up full width on mobile */
+    #projects {
+        grid-template-columns: 1fr; 
+    }
+
 }
