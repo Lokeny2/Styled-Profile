@@ -155,3 +155,20 @@ footer {
     border-top: 1px solid #ddd;
     color: #7f8c8d;
 }
+
+/* Media Queries */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column; 
+        gap: 10px;
+        align-items: center;
+    }
+
+    header {
+        padding: 20px 10px;
+    }
+
+    h1 {
+        font-size: 1.8rem; 
+    }
+}
