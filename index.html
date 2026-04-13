@@ -3,20 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Profile | Portfolio</title>
-    <meta name="description" content="Portfolio of Moses Ekutan ,a web developer and a 2025 graduate focused on clean code">
+    <title>Moses Ekutan | Software Developer</title>
+    <meta name="description" content="Portfolio of Moses Ekutan, a web developer and 2025 graduate focused on clean code.">
+    <meta name="author" content="Moses Ekutan">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
+    <header role="banner">
         <h1>Moses Ekutan</h1>
         <p>Software Developer | Language Specialist | Tech Enthusiast</p>
+        <nav aria-label="Page sections">
+            <ul>
+                <li><a href="#summary">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
-        <section id="summary">
-            <h2>Professional Summary</h2>
+        <section id="summary" aria-labelledby="summary-heading">
+            <h2 id="summary-heading">Professional Summary</h2>
             <p>
                 A dedicated developer focused on building clean web applications. 
                 With a strong foundation in front-end technologies and a background in 
@@ -25,57 +35,55 @@
             </p>
         </section>
 
-        <section id="skills">
-            <h2>Technical Proficiencies</h2>
+        <section id="skills" aria-labelledby="skills-heading">
+            <h2 id="skills-heading">Technical Proficiencies</h2>
             <article>
                 <h3>Core Development</h3>
                 <ul>
                     <li><strong>Frontend:</strong> Semantic HTML5</li>
                     <li><strong>Tools:</strong> Git, GitHub, VS Code, Chrome DevTools</li>
-                    
                 </ul>
             </article>
 
             <article>
-                <h3>Languages & Communication</h3>
+                <h3>Languages &amp; Communication</h3>
                 <ul>
                     <li><strong>French:</strong> Professional Working Proficiency (B2 Level)</li>
-                    <li><strong>Chinese:</strong> Elementary Proficiency (YCT 1 & HSK 3 Candidate)</li>
+                    <li><strong>Chinese:</strong> Elementary Proficiency (YCT 1 &amp; HSK 3 Candidate)</li>
                     <li><strong>English:</strong> Native/Bilingual</li>
                 </ul>
             </article>
         </section>
 
-        <section id="projects">
-            <h2>Key Projects</h2>
+        <section id="projects" aria-labelledby="projects-heading">
+            <h2 id="projects-heading">Key Projects</h2>
             <article>
                 <h3>ShambaSmart AI</h3>
                 <p>An agricultural digital platform featuring weather forecasting, market pricing, and pest detection modules.</p>
-                <small>Technologies: HTML, CSS</small>
+                <footer><small>Technologies: HTML, CSS</small></footer>
             </article>
         </section>
 
-        <section id="education">
-            <h2>Education & Training</h2>
+        <section id="education" aria-labelledby="education-heading">
+            <h2 id="education-heading">Education &amp; Training</h2>
             <article>
                 <h3>Secondary Education</h3>
-                <p>KCSE Graduate, Class of 2025</p>
+                <p><time datetime="2025">KCSE Graduate, Class of 2025</time></p>
             </article>
-            
         </section>
 
-        <section id="contact">
-            <h2>Get In Touch</h2>
+        <section id="contact" aria-labelledby="contact-heading">
+            <h2 id="contact-heading">Get In Touch</h2>
             <p>I am currently open to collaborations and junior developer opportunities.</p>
             <address>
-                Email: <a href="mailto: lokenymoses2@gmail.com">lokenymoses2@gmail.com</a><br>
+                Email: <a href="mailto:lokenymoses2@gmail.com">lokenymoses2@gmail.com</a><br>
                 Location: Nairobi, Kenya
             </address>
         </section>
     </main>
 
-    <footer>
-        <p>&copy; 2026 | Designed with Semantic HTML</p>
+    <footer role="contentinfo">
+        <p><small>&copy; 2026 Moses Ekutan | Designed with Semantic HTML</small></p>
     </footer>
 
 </body>
