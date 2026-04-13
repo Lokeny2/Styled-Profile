@@ -144,7 +144,7 @@ time {
 /* Styling the Contact area */
 #contact address {
     font-style: normal; 
-    background: #1e293b; /* Matches dark theme */
+    background: #1e293b; /* Matches the dark theme */
     color: #e2e8f0;
     padding: 20px;
     border-left: 5px solid #38bdf8;
@@ -160,6 +160,14 @@ time {
 #contact a:hover {
     text-decoration: underline;
 }
+
+h1 { text-shadow: 0 0 30px rgba(56, 189, 248, 0.45); }
+header { border-top: 3px solid #38bdf8; }
+h3 { color: #7dd3fc; }
+nav a:hover { border-bottom: 2px solid #38bdf8; padding-bottom: 8px; }
+@keyframes fadeUp { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: none; } }
+section { animation: fadeUp 0.5s ease both; }
+#skills { animation-delay: 0.1s; } #projects { animation-delay: 0.2s; } #education { animation-delay: 0.3s; } #contact { animation-delay: 0.4s; }
 
 /* Accessibility: Keyboard focus states */
 a:focus, button:focus {
