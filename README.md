@@ -1,5 +1,5 @@
          Moses Ekutan | Software Developer Portfolio
-A modern, high-performance personal portfolio website built with a focus on clean code, accessibility, and responsive design. This project showcases my journey as a developer, my technical skills, and my work in the Agri-tech and utility sectors.
+A personal portfolio website built with a focus on clean code, accessibility, and responsive design. This project showcases my journey as a developer, my technical skills, and my work in the Agri-tech and utility sectors.
 
        Features
 1.Dark Mode UI: A theme designed for high readability.
@@ -22,7 +22,7 @@ During the development of this portfolio, I reached several important milestones
 
 1.Mobile-First Thinking: I learned how to use Media Queries to transform a desktop navigation into a mobile menu.
 
-2,The Power of Semantic HTML: By using tags like <article>, <section>, and <time>, I learned how to make code that is easy for human and for search engines and screen readers to read.
+2,The Power of Semantic HTML:I learned how to make code that is easy for human and for search engines and screen readers to read.
 
 3.Dark Theme Design: I practiced balancing color contrast—using deep blues and vibrant cyans—to create an attractive dark theme that doesn't cause eye strain.
 
