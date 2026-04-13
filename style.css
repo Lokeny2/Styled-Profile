@@ -70,3 +70,33 @@ article {
     margin-bottom: 15px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.05); /* Very light shadow */
 }
+
+/* Making projects sit side-by-side on big screens */
+#projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+/* The project cards specifically */
+#projects article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease; 
+    border: 1px solid #ddd;
+}
+
+/*  Interaction */
+#projects article:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* The "Technologies" text */
+#projects footer small {
+    color: #7f8c8d;
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
